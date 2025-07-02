@@ -1,7 +1,10 @@
 // Copyright 2023–2025 Skip
 // SPDX-License-Identifier: LGPL-3.0-only WITH LGPL-3.0-linking-exception
 import Foundation
+// tek 7/2/2025, Added below:   #if canImport(OSLog) 
+#if canImport(OSLog)
 import OSLog
+#endif
 #if SKIP
 import SkipFFI
 #endif
