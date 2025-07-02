@@ -2,7 +2,9 @@
 // SPDX-License-Identifier: LGPL-3.0-only WITH LGPL-3.0-linking-exception
 #if SKIP
 import Foundation
+#if canImport(OSLog)
 import OSLog
+#endif
 import SkipFFI
 import SkipSQL
 
