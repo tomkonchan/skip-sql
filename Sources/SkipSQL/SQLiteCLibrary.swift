@@ -1,7 +1,9 @@
 // Copyright 2023–2025 Skip
 // SPDX-License-Identifier: LGPL-3.0-only WITH LGPL-3.0-linking-exception
 #if !SKIP
+#if canImport(SQLite3)
 import SQLite3
+#endif
 
 public typealias sqlite3_int64 = SQLite3.sqlite3_int64
 /// An action that can be registered to receive updates whenever a ROWID table changes
